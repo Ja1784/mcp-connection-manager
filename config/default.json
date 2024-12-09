@@ -1,0 +1,24 @@
+{
+  "servers": {
+    "fetch": {
+      "port": 3000,
+      "maxRetries": 5,
+      "timeout": 3000,
+      "retryDelay": 1000
+    },
+    "mysql-mcp-server": {
+      "port": 3306,
+      "maxRetries": 3,
+      "timeout": 5000,
+      "retryDelay": 2000
+    }
+  },
+  "monitoring": {
+    "connectionCheckInterval": 30000,
+    "healthCheckInterval": 60000
+  },
+  "logging": {
+    "level": "info",
+    "file": "logs/mcp-connections.log"
+  }
+}
