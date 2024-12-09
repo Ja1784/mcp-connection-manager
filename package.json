@@ -1,0 +1,25 @@
+{
+  "name": "mcp-connection-manager",
+  "version": "1.0.0",
+  "description": "Enhanced MCP Connection Manager with MySQL support, health checks, and robust error handling",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "ws": "^8.16.0",
+    "events": "^3.3.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "keywords": [
+    "mcp",
+    "connection-manager",
+    "websocket",
+    "mysql"
+  ],
+  "author": "",
+  "license": "MIT"
+}
